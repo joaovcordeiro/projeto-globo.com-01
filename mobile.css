@@ -1,0 +1,336 @@
+/* Modifica a font para Open Sans */
+.mobile {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Logo */
+.mob-logo {
+  widows: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mob-logo img {
+  width: 208px;
+  height: 57px;
+}
+
+/* Barra de opções */
+.mob-barra-opcoes {
+  width: 100%;
+  height: 58px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #f5f6f7;
+  border-bottom: 1px solid #f5f6f7;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.048em;
+  font-weight: bold;
+}
+/* Cores e posicionamento dos links */
+.mob-g1 {
+  color: #cb342a;
+  margin-left: 41px;
+}
+.mob-ge {
+  color: #26b45e;
+}
+.mob-gshow {
+  color: #ec7d00;
+}
+.mob-tech {
+  color: #666666;
+}
+.mob-videos {
+  color: #0769de;
+  margin-right: 40px;
+}
+
+/* Materia principal*/
+.mob-materia-principal {
+  font-weight: bold;
+  color: #cd150b;
+  width: 345px;
+  margin-left: 15px;
+  border-bottom: 1px solid #f5f6f7;
+}
+
+.mob-materia-principal div:first-child {
+  width: 345px;
+  height: 125px;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.028em;
+  margin-top: 16px;
+}
+.mob-materia-principal div:last-child {
+  width: 345px;
+  height: 58px;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.068em;
+  margin-bottom: 5px;
+}
+
+/* materias com imagem e titulo em vermelho */
+
+.mob-materia-img-red div {
+  display: flex;
+}
+
+.mob-materia-img-red img {
+  width: 120px;
+  height: 67.37px;
+  border-radius: 2.81871px;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+.mob-materia-img-red h2 {
+  width: 215px;
+  height: 84px;
+  color: #cd150b;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.045em;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.mob-materia-img-red h3 {
+  width: 344px;
+  height: 35px;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.048em;
+  color: #cd150b;
+  letter-spacing: -0.048em;
+  margin-left: 16px;
+  margin-bottom: 9px;
+  margin-right: 15px;
+  border-bottom: 1px solid #f5f6f7;
+}
+.mob-materia-img-red div:nth-child(3) {
+  margin-top: -5px;
+}
+.mob-materia-img-red div:nth-child(5) {
+  margin-top: -5px;
+}
+
+/* materia em vermelho */
+
+.mob-materia-red h2 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.045em;
+  color: #cd150b;
+}
+.mob-materia-red h3 {
+  font-size: 15.5px;
+  line-height: 19px;
+  letter-spacing: -0.048em;
+  color: #cd150b;
+}
+
+.mob-materia-red-1 {
+  margin-left: 17px;
+  margin-right: 20px;
+  border-bottom: 4px double #f5f6f7;
+  border-length: 344px;
+}
+.mob-materia-red-1 h2 {
+  margin-top: 20px;
+  width: 342px;
+  height: 60px;
+}
+
+.mob-materia-red-1 h3 {
+  width: 342px;
+  height: 42px;
+}
+
+.mob-materia-red-2 {
+  margin-left: 17px;
+  margin-right: 20px;
+  border-bottom: 4px double #f5f6f7;
+  border-length: 344px;
+}
+
+.mob-materia-red-2 h2 {
+  margin-top: 14px;
+
+  width: 341px;
+  height: 55px;
+}
+
+.mob-materia-red-2 h3 {
+  width: 343px;
+  height: 42px;
+}
+
+.mob-materia-red-3 h2 {
+  margin-top: 14px;
+  margin-left: 17px;
+  width: 341px;
+  height: 51px;
+}
+
+.mob-materia-red-3 h3 {
+  margin-left: 17px;
+  width: 344px;
+  height: 25px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #f5f6f7;
+}
+
+/* materia em verde com imagem */
+
+.mob-materia-green-img img {
+  width: 120px;
+  height: 66.5px;
+  border-radius: 4px;
+  margin-left: 16.5px;
+  margin-top: 23px;
+}
+.mob-materia-green-img div:first-child {
+  display: flex;
+}
+
+.mob-materia-green-img h2 {
+  width: 213px;
+  height: 84px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.045em;
+  color: #06aa48;
+  margin-top: 22px;
+  margin-left: 10px;
+}
+.mob-materia-green-img h3 {
+  width: 343px;
+  height: 28px;
+  font-size: 15.5px;
+  line-height: 19px;
+  letter-spacing: -0.048em;
+  color: #06aa48;
+  margin-left: 15px;
+  margin-top: 16.5px;
+  border-bottom: 1px solid #f5f6f7;
+}
+.mob-materia-green-img-2 {
+  border-bottom: 1px solid #f5f6f7;
+  width: 344px;
+  margin-left: 16px;
+}
+.mob-materia-green-img-2 img {
+  margin-bottom: 23.5px;
+  margin-left: -2px;
+}
+
+/* materia com titulo em verde sem imagem */
+.mob-materia-green h2 {
+  width: 347px;
+  height: 79px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.045em;
+  color: #06aa48;
+  margin-top: 22px;
+  margin-left: 13px;
+  margin-bottom: 11px;
+}
+
+.mob-materia-green h3 {
+  width: 345px;
+  height: 42px;
+  font-size: 15.5px;
+  line-height: 19px;
+  letter-spacing: -0.048em;
+  color: #06aa48;
+  margin-top: 11px;
+  margin-left: 13px;
+  border-bottom: 1px solid #f5f6f7;
+  padding-bottom: 21px;
+}
+
+/* codigo materias amarelas */
+
+.mob-materia-yellow img {
+  width: 120px;
+  height: 66.5px;
+  border-radius: 4px;
+}
+.mob-materia-yellow h2 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.045em;
+  color: #ff8203;
+}
+.mob-materia-yellow h3 {
+  font-size: 15.5px;
+  line-height: 19px;
+  letter-spacing: -0.048em;
+  color: #ff8203;
+  width: 342px;
+  height: 27px;
+}
+
+.yellow-1 {
+  display: flex;
+}
+
+.yellow-1 img {
+  margin-top: 22px;
+  margin-left: 17px;
+  margin-right: 9px;
+}
+.yellow-1 h2 {
+  margin-top: 22px;
+}
+.yellow-a1 {
+  margin-top: 11.15px;
+  margin-left: 17px;
+  margin-bottom: 11px;
+  border-bottom: 1px solid #f5f6f7;
+  padding-bottom: 11px;
+  border-length: 344px;
+  margin-right: 15px;
+}
+
+.yellow-2 {
+  margin-left: 17px;
+  border-bottom: 1px solid #f5f6f7;
+  border-length: 344px;
+  padding-bottom: 10px;
+  margin-right: 15px;
+}
+
+.yellow-2 h2 {
+  width: 341px;
+  height: 48px;
+  margin-bottom: -12px;
+  margin-top: 11px;
+}
+
+.yellow-3 {
+  display: flex;
+}
+.yellow-3 img {
+  margin-left: 17px;
+  margin-top: 19px;
+  margin-right: 9px;
+}
+.yellow-3 h2 {
+  width: 212px;
+  height: 84px;
+  margin-top: 17px;
+  margin-bottom: 11px;
+}
